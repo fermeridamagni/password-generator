@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <nav className="w-full min-h-[100px] h-auto flex flex-row fixed justify-between gap-4 py-6 px-8 z-30 backdrop-blur-sm bg-gradient-to-r from-white-primary/90 to-gray-primary/90">
-      <div className="w-full h-auto">
+      <div className="h-auto">
         <Link href="https://magnideveloper.com" className="flex flex-row gap-3 items-center">
           <div>
             <Image

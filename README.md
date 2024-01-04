@@ -1,6 +1,11 @@
 # **Password Generator by [@fermeridamagni](https://github.com/fermeridamagni)**
 
-This is a Password Generator in Javascript. The project use this dependencies
+This is a Password Generator in Javascript for Free Use.
+
+**URL**: [https://password-generator-fermeridamagni.vercel.app/](https://password-generator-fermeridamagni.vercel.app/ "Password Generator")
+
+![1704347263940](public/images/resources/preview.png "Application Preview")
+
 
 **Packages in use:**
 
@@ -22,6 +27,7 @@ This is a Password Generator in Javascript. The project use this dependencies
 * @fortawesome/free-regular-svg-icons,
 * @fortawesome/free-solid-svg-icons,
 * @fortawesome/react-fontawesome
+
 
 @ **Magni Developer**
 
