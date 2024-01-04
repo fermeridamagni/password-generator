@@ -1,6 +1,6 @@
-# **Template to create NextJS applications fast and easy by [@fermeridamagni](https://github.com/fermeridamagni)**
+# **Password Generator by [@fermeridamagni](https://github.com/fermeridamagni)**
 
-The template include a application clean and ready for the use.
+This is a Password Generator in Javascript. The project use this dependencies
 
 **Packages in use:**
 
@@ -11,6 +11,10 @@ The template include a application clean and ready for the use.
 * eslint-config-next,
 * autoprefixer,
 * postcss,
+* next-nprogress-bar,
+* clipboard-copy,
+* sonner,
+* @nextui-org/react,
 * tailwindcss,
 * tailwindcss-animated,
 * @fortawesome/fontawesome-svg-core,
@@ -18,15 +22,6 @@ The template include a application clean and ready for the use.
 * @fortawesome/free-regular-svg-icons,
 * @fortawesome/free-solid-svg-icons,
 * @fortawesome/react-fontawesome
-
-**Optional Packages:**
-
-* @nextui-org/react,
-* framer-motion,
-* jquery,
-* bootstrap,
-* mysql - mysql2
-
 
 @ **Magni Developer**
 
