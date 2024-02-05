@@ -114,9 +114,11 @@ export default function HomePage() {
 
   return (
     <Main flexCenter={true} flexCol={true}>
-      <Card className="w-11/12 sm:w-[500px] bg-white-primary/90 backdrop-blur-sm border-1 border-gray-primary">
+      <Card className="w-11/12 sm:w-[500px] bg-white_primary/90 dark:bg-black_primary backdrop-blur-sm border-1 border-gray_primary dark:border-black_primary">
         <CardHeader className="flex flex-center justify-center">
-          <h1 className="text-4xl font-title">Generador de Contraseña</h1>
+          <h1 className="text-4xl font-title text-black dark:text-white">
+            Generador de Contraseña
+          </h1>
         </CardHeader>
 
         <CardBody className="flex flex-col gap-6 py-10">
@@ -127,8 +129,8 @@ export default function HomePage() {
             startContent={<FontAwesomeIcon icon={faLock} />}
             endContent={
               <Tooltip content="Copiar contraseña">
-                <Button className="bg-black" onClick={handleCopyToClipboard}>
-                  <FontAwesomeIcon icon={faCopy} color="white" size="xl" />
+                <Button className="bg-black text-white" onClick={handleCopyToClipboard}>
+                  <FontAwesomeIcon icon={faCopy} size="xl" />
                 </Button>
               </Tooltip>
             }
@@ -194,7 +196,7 @@ export default function HomePage() {
 
           <Button
             onClick={handleGeneratePassword}
-            className="bg-black text-white"
+            className="bg-black text-white dark:bg-white_primary dark:text-black"
             endContent={<FontAwesomeIcon icon={faRotateRight} />}
           >
             Generar Contraseña
