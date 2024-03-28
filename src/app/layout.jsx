@@ -3,8 +3,8 @@ import { Toaster } from "sonner";
 import { fontText, fontTitle } from "@/resources/fonts/fonts.config";
 import "@/resources/styles/globals.css";
 
+import Header from "@/components/header";
 import Footer from "@/components/footer";
-import NavBar from "@/components/header";
 import Providers from "@/app/providers";
 
 export const metadata = {
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${fontText.variable} ${fontTitle.variable} font-text`}>
         <Providers>
-          <NavBar />
+          <Header />
 
           {children}
 

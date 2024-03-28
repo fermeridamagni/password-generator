@@ -1,9 +1,8 @@
-
-# DICTION AI - V2.0
+# PASSWORD GENERATOR **by [@fermeridamagni](https://github.com/fermeridamagni "@fermeridamagni")**
 
 #### URL'S
 
-* PRODUCTION: [https://dictionai.magnideveloper.com](https://dictionai.magnideveloper.com/ "DICTION AI")
+* PRODUCTION: [https://passwordgenerator.magnideveloper.com](https://passwordgenerator.magnideveloper.com "PASSWORD GENERATOR by @fermeridamagni")
 * DEVELOPMENT:
 
 ---

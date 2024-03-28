@@ -130,7 +130,7 @@ export default function HomePage() {
             disabled
             startContent={<FontAwesomeIcon icon={faLock} />}
             endContent={
-              <Tooltip content="Copiar contraseña">
+              <Tooltip content="Copiar contraseña" color="primary">
                 <Button
                   className="bg-black text-white"
                   onClick={handleCopyToClipboard}
