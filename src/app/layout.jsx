@@ -1,9 +1,11 @@
-import "@/resources/styles/globals.css";
+import { Toaster } from "sonner";
 
 import { fontText, fontTitle } from "@/resources/fonts/fonts.config";
+import "@/resources/styles/globals.css";
+
 import Footer from "@/components/footer";
-import NavBar from "@/components/navbar";
-import Providers from "./providers";
+import NavBar from "@/components/header";
+import Providers from "@/app/providers";
 
 export const metadata = {
   title: "Password Generator by @fermeridamagni",
@@ -27,6 +29,8 @@ export default function RootLayout({ children }) {
           <NavBar />
 
           {children}
+
+          <Toaster richColors closeButton />
 
           <Footer />
         </Providers>

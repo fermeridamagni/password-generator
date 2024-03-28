@@ -24,7 +24,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import copyToClipboard from "clipboard-copy";
-import { Toaster, toast } from "sonner";
+import { toast } from "sonner";
 
 config.autoAddCss = false;
 
@@ -113,11 +113,11 @@ export default function HomePage() {
   };
 
   return (
-    <Main flexCenter={true} flexCol={true}>
-      <Card className="w-11/12 sm:w-[500px] bg-white_primary/90 dark:bg-black_primary backdrop-blur-sm border-1 border-gray_primary dark:border-black_primary">
+    <Main className="justify-center items-center">
+      <Card className="w-11/12 sm:w-[500px] bg-white dark:bg-black_primary backdrop-blur-sm border-1 border-gray_primary dark:border-black_primary">
         <CardHeader className="flex flex-center justify-center">
-          <h1 className="text-4xl font-title text-black dark:text-white">
-            Generador de Contraseña
+          <h1 className="text-4xl font-title text-black dark:text-white uppercase">
+            Generador de Contraseñas
           </h1>
         </CardHeader>
 
@@ -125,11 +125,16 @@ export default function HomePage() {
           <Input
             label="Contraseña Generada"
             value={password}
+            variant="faded"
+            color="primary"
             disabled
             startContent={<FontAwesomeIcon icon={faLock} />}
             endContent={
               <Tooltip content="Copiar contraseña">
-                <Button className="bg-black text-white" onClick={handleCopyToClipboard}>
+                <Button
+                  className="bg-black text-white"
+                  onClick={handleCopyToClipboard}
+                >
                   <FontAwesomeIcon icon={faCopy} size="xl" />
                 </Button>
               </Tooltip>
@@ -165,13 +170,16 @@ export default function HomePage() {
             color="foreground"
           />
           <Select
-            variant="bordered"
             label="Configuración de la Contraseña"
+            variant="faded"
+            color="primary"
             selectionMode="multiple"
             selectedKeys={Array.from(selectedConfig)}
             onSelectionChange={(value) => handleSelectChange(value)}
           >
             <SelectItem
+              variant="faded"
+              color="primary"
               value="useUppercase"
               key="useUppercase"
               onClick={() => setUseUppercase(!useUppercase)}
@@ -179,6 +187,8 @@ export default function HomePage() {
               Usar Mayúsculas
             </SelectItem>
             <SelectItem
+              variant="faded"
+              color="primary"
               key="useNumbers"
               value="useNumbers"
               onClick={() => setUseNumbers(!useNumbers)}
@@ -186,6 +196,8 @@ export default function HomePage() {
               Usar Números
             </SelectItem>
             <SelectItem
+              variant="faded"
+              color="primary"
               key="useSymbols"
               value="useSymbols"
               onClick={() => setUseSymbols(!useSymbols)}
@@ -195,8 +207,8 @@ export default function HomePage() {
           </Select>
 
           <Button
-            onClick={handleGeneratePassword}
             className="bg-black text-white dark:bg-white_primary dark:text-black"
+            onClick={handleGeneratePassword}
             endContent={<FontAwesomeIcon icon={faRotateRight} />}
           >
             Generar Contraseña
@@ -216,8 +228,6 @@ export default function HomePage() {
           </p>
         </CardFooter>
       </Card>
-
-      <Toaster richColors closeButton />
     </Main>
   );
 }

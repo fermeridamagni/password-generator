@@ -1,36 +1,44 @@
-# **Password Generator by [@fermeridamagni](https://github.com/fermeridamagni)**
 
-This is a Password Generator in Javascript for Free Use.
+# DICTION AI - V2.0
 
-**URL**: [https://password-generator-fermeridamagni.vercel.app/](https://password-generator-fermeridamagni.vercel.app/ "Password Generator")
+#### URL'S
 
-![1704347263940](public/images/resources/preview.png "Application Preview")
+* PRODUCTION: [https://dictionai.magnideveloper.com](https://dictionai.magnideveloper.com/ "DICTION AI")
+* DEVELOPMENT:
 
+---
 
-**Packages in use:**
+#### PREVIEW
+
+[![1711257578119](public/preview.webp "Calculator by @fermeridamagni")](https://github.com/fermeridamagni/dictionai-v2/blob/master/public/images/preview.webp)
+
+---
+
+#### PACKAGES IN USE
 
 * next,
 * react,
 * react-dom,
+* next-themes,
 * eslint,
 * eslint-config-next,
 * autoprefixer,
 * postcss,
-* next-nprogress-bar,
-* clipboard-copy,
 * sonner,
-* @nextui-org/react,
+* clsx,
 * tailwindcss,
 * tailwindcss-animated,
+* tailwind-merge,
+* @nextui-org/react,
 * @fortawesome/fontawesome-svg-core,
 * @fortawesome/free-brands-svg-icons,
 * @fortawesome/free-regular-svg-icons,
 * @fortawesome/free-solid-svg-icons,
 * @fortawesome/react-fontawesome
 
+---
 
 @ **Magni Developer**
 
- **Page** : [https://magnideveloper.com](https://magnideveloper.com "Magni Developer")
-
- **Contact** : [https://magnideveloper.com/contacto](https://magnideveloper.com/contacto "Magni Developer | Contacto")
+* **Page Web** : [https://magnideveloper.com](https://magnideveloper.com/ "Magni Developer")
+* **Email** : [contacto@magnideveloper.com](mailto:contacto@magnideveloper.com "Contacto | Magni Developer")
